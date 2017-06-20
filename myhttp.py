@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+
 from BaseHTTPServer import BaseHTTPRequestHandler,HTTPServer
 class MyHandler(BaseHTTPRequestHandler):
 	def do_GET(self):
